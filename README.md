@@ -14,4 +14,4 @@ Start by running `npm install` inside the project folder
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
 
-Exercise 11.15 run deployment step only for master branch
+Exercise 11.16 Adding versioning - dry run 
