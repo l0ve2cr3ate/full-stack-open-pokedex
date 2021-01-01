@@ -15,7 +15,7 @@ app.get('/version', (req, res) => {
 })
 
 app.get('/failure', (req, res) => {
-  res.status(400).send({error: 'Simulate error for health check'}) 
+  res.status(400).send({ error: 'Simulate error for health check' })
 })
 
 app.listen(PORT, () => {
