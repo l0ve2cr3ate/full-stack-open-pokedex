@@ -12,7 +12,7 @@ jobs:
       - name: Check the deployed service URL
         uses: jtalk/url-health-check-action@v1.2
         with:
-          url: https://fullstack-open-part11-pokedex.herokuapp.com/
+          url: https://fullstack-open-part11-pokedex.herokuapp.com/failure
           # Follow redirects, or just report success on 3xx status codes
           follow-redirect: no # Optional, defaults to "no"
           # Fail this action after this many failed attempts
